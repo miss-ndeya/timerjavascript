@@ -13,7 +13,7 @@ function nombre() {
   let number = parseInt(prompt("Veuillez entrer un nombre entier supérieur à 10 :"));
   
   while (isNaN(number) || number <= 10) {
-    alert("Erreur : Veuillez entrer un nombre entier supérieur à 10.");
+    alert("Le nombre est inférieur à 10.");
     number = parseInt(prompt("Veuillez entrer un nombre entier supérieur à 10 :"));
   }
   
