@@ -1,5 +1,5 @@
 function decompte(number) {
-  if (number <= 0) {
+  if (number < 0) {
     console.log("Compte à rebours terminé !");
   } else {
     console.log(number);
